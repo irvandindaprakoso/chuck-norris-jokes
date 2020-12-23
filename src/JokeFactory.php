@@ -11,9 +11,10 @@ class JokeFactory
         'If you can see Chuck Norris, he can see you. If you can\'t see Chuck Norris you may be only second away from death.'
     ];
 
+
     public function __construct(array $jokes = null)
     {
-        if ($jokes){
+        if ($jokes) {
             $this->jokes = $jokes;
         }
     }
