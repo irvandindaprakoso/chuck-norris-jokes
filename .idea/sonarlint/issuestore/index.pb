@@ -7,3 +7,12 @@ I
 phpunit.xml.dist,f\3\f3d8f03a0c4bab44351407daddbda1f23a33919c
 =
 composer.json,3\9\3957b91a0d8450cea0115cfd5af69eac90d75897
+B
+build/coverage.txt,0\5\0520dbfd4f2fd509e4d77c3a93bc7a367b051aaf
+?
+html/index.html,a\8\a8bedfaa63656640e851f999fb4a7e07fed63bdc
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+;
+.travis.yml,d\e\dea01dd89a3b602828e630677fde5d77c06441c8
