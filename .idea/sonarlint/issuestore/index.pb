@@ -16,3 +16,8 @@ B
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 ;
 .travis.yml,d\e\dea01dd89a3b602828e630677fde5d77c06441c8
+<
+.styleci.yml,b\e\bef5ea44a7455cbdeddf8c96649dfae70da325af
+:
+
+LICENSE.md,4\a\4a8486805915245bbbe2e3c8c1a9d680c6843a82
