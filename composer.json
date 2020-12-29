@@ -9,7 +9,9 @@
             "email": "irvandindaprakoso@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
     "autoload": {
         "psr-4": {
             "Irvandindaprakoso\\ChuckNorrisJokes\\" : "src/"
@@ -21,6 +23,17 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.5"
+        "phpunit/phpunit": "^7.5",
+        "orchestra/testbench": "~3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Irvandindaprakoso\\ChuckNorrisJokes\\ChuckNorrisJokesServiceProvider"
+            ],
+            "aliases": {
+                "ChuckNorris": "Irvandindaprakoso\\ChuckNorrisJokes\\Facades\\ChuckNorris"
+            }
+        }
     }
 }

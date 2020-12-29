@@ -21,3 +21,5 @@ B
 :
 
 LICENSE.md,4\a\4a8486805915245bbbe2e3c8c1a9d680c6843a82
+>
+.gitattributes,2\4\24139dae656713ba861751fb2c2ac38839349a7a
