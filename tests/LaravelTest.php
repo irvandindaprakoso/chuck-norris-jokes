@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Irvandindaprakoso\ChuckNorrisJokes\Tests;
-
 
 use Illuminate\Support\Facades\Artisan;
 use Irvandindaprakoso\ChuckNorrisJokes\ChuckNorrisJokesServiceProvider;
@@ -15,14 +13,14 @@ class LaravelTest extends TestCase
     protected function getPackageProviders($app)
     {
         return [
-            ChuckNorrisJokesServiceProvider::class
+            ChuckNorrisJokesServiceProvider::class,
         ];
     }
 
     protected function getPackageAliases($app)
     {
         return [
-            'ChuckNorris' => ChuckNorrisJoke::class
+            'ChuckNorris' => ChuckNorrisJoke::class,
         ];
     }
 
@@ -34,7 +32,6 @@ class LaravelTest extends TestCase
         ChuckNorris::shouldReceive('getRandomJoke')
             ->once()
             ->andReturn('some joke');
-
 
         $this->artisan('chuck-norris');
 
