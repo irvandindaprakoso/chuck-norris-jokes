@@ -23,3 +23,11 @@ B
 LICENSE.md,4\a\4a8486805915245bbbe2e3c8c1a9d680c6843a82
 >
 .gitattributes,2\4\24139dae656713ba861751fb2c2ac38839349a7a
+=
+composer.lock,c\3\c3262e2a0879195bd6a727e90f768bc85ad79ffd
+W
+'src/ChuckNorrisJokesServiceProvider.php,0\c\0cb09db2a40dc094934cc69f48fed09597966547
+K
+src/Facades/ChuckNorris.php,e\e\eef0b271db5e1123ffd87a76cbcc0b4338e3a7e2
+O
+src/Console/ChuckNorrisJoke.php,b\e\be7eacfcc2289d5ac1fa0cd62af47ec219b98fff
